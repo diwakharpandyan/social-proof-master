@@ -106,8 +106,9 @@ summary {
   body {
     height: auto;
     width: auto;
-    background-image: url(./images/bg-pattern-top-mobile.svg);
-    background-position: right 0vw bottom 100%;
+    background-image: url(./images/bg-pattern-top-mobile.svg),
+      url(./images/bg-pattern-bottom-mobile.svg);
+    background-position: right 0% bottom 100%, left 30% top 80%;
   }
   main {
     height: auto;
